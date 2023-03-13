@@ -1,0 +1,8 @@
+C:\Users\user\Desktop\MicrosoftC#\Week1\Exercise7\bin\Debug\Exercise7.exe.config
+C:\Users\user\Desktop\MicrosoftC#\Week1\Exercise7\bin\Debug\Exercise7.exe
+C:\Users\user\Desktop\MicrosoftC#\Week1\Exercise7\bin\Debug\Exercise7.pdb
+C:\Users\user\Desktop\MicrosoftC#\Week1\Exercise7\obj\Debug\Exercise7.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\MicrosoftC#\Week1\Exercise7\obj\Debug\Exercise7.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Desktop\MicrosoftC#\Week1\Exercise7\obj\Debug\Exercise7.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\MicrosoftC#\Week1\Exercise7\obj\Debug\Exercise7.exe
+C:\Users\user\Desktop\MicrosoftC#\Week1\Exercise7\obj\Debug\Exercise7.pdb
