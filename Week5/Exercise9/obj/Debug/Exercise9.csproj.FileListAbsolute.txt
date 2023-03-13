@@ -1,0 +1,8 @@
+C:\Users\user\Desktop\MicrosoftC#\Week5\Exercise9\bin\Debug\Exercise9.exe.config
+C:\Users\user\Desktop\MicrosoftC#\Week5\Exercise9\bin\Debug\Exercise9.exe
+C:\Users\user\Desktop\MicrosoftC#\Week5\Exercise9\bin\Debug\Exercise9.pdb
+C:\Users\user\Desktop\MicrosoftC#\Week5\Exercise9\obj\Debug\Exercise9.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\MicrosoftC#\Week5\Exercise9\obj\Debug\Exercise9.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Desktop\MicrosoftC#\Week5\Exercise9\obj\Debug\Exercise9.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\MicrosoftC#\Week5\Exercise9\obj\Debug\Exercise9.exe
+C:\Users\user\Desktop\MicrosoftC#\Week5\Exercise9\obj\Debug\Exercise9.pdb
