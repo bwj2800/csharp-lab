@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl" Alias="Self" Namespace="Model1.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012">
+  <EntityContainer Name="Model1StoreContainer">
+    <EntitySet Name="DepartmentSet" EntityType="Model1.Store.DepartmentSet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AddressSet" EntityType="Model1.Store.AddressSet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ManagerSet" EntityType="Model1.Store.ManagerSet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProjectSet" EntityType="Model1.Store.ProjectSet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ManagerSet_Employee" EntityType="Model1.Store.ManagerSet_Employee" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Employee_inherits_Manager" Association="Model1.Store.FK_Employee_inherits_Manager">
+      <End EntitySet="ManagerSet" Role="Manager" />
+      <End EntitySet="ManagerSet_Employee" Role="Employee" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="DepartmentSet">
+    <Key>
+      <PropertyRef Name="DepartmentId" />
+    </Key>
+    <Property Name="DepartmentId" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+    <Property Name="DepartmentName" Nullable="false" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="AddressSet">
+    <Key>
+      <PropertyRef Name="AddressId" />
+    </Key>
+    <Property Name="AddressId" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+    <Property Name="Address_" Nullable="false" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="ManagerSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+    <Property Name="Name" Nullable="false" Type="nvarchar(max)" />
+    <Property Name="DepartmentId" Nullable="false" Type="int" />
+  </EntityType>
+  <EntityType Name="ProjectSet">
+    <Key>
+      <PropertyRef Name="ProjectId" />
+    </Key>
+    <Property Name="ProjectId" Nullable="false" StoreGeneratedPattern="Identity" Type="int" />
+    <Property Name="ProjectName" Nullable="false" Type="nvarchar(max)" />
+    <Property Name="StartDate" Nullable="false" Type="datetime" />
+    <Property Name="EndDate" Nullable="false" Type="datetime" />
+  </EntityType>
+  <EntityType Name="ManagerSet_Employee">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Job" Nullable="false" Type="nvarchar(max)" />
+    <Property Name="ManagerId" Nullable="false" Type="int" />
+    <Property Name="HireDate" Nullable="false" Type="datetime" />
+    <Property Name="Salary" Nullable="false" Type="int" />
+    <Property Name="AddressId" Nullable="false" Type="int" />
+    <Property Name="ProjectId" Nullable="false" Type="int" />
+    <Property Name="Id" Nullable="false" Type="int" />
+  </EntityType>
+  <Association Name="FK_Employee_inherits_Manager">
+    <End Type="Model1.Store.ManagerSet" Multiplicity="1" Role="Manager">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Model1.Store.ManagerSet_Employee" Multiplicity="0..1" Role="Employee" />
+    <ReferentialConstraint>
+      <Principal Role="Manager">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
