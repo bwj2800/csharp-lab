@@ -1,0 +1,17 @@
+C:\Users\user\Desktop\MicrosoftC#\Assignment2\Assignment2\bin\Debug\Assignment2.exe.config
+C:\Users\user\Desktop\MicrosoftC#\Assignment2\Assignment2\bin\Debug\Assignment2.exe
+C:\Users\user\Desktop\MicrosoftC#\Assignment2\Assignment2\bin\Debug\Assignment2.pdb
+C:\Users\user\Desktop\MicrosoftC#\Assignment2\Assignment2\obj\Debug\Assignment2.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\MicrosoftC#\Assignment2\Assignment2\obj\Debug\Assignment2.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Desktop\MicrosoftC#\Assignment2\Assignment2\obj\Debug\Assignment2.AppointmentManagement.resources
+C:\Users\user\Desktop\MicrosoftC#\Assignment2\Assignment2\obj\Debug\Assignment2.DoctorManagement.resources
+C:\Users\user\Desktop\MicrosoftC#\Assignment2\Assignment2\obj\Debug\Assignment2.PatientManagement.resources
+C:\Users\user\Desktop\MicrosoftC#\Assignment2\Assignment2\obj\Debug\Assignment2.MDI.resources
+C:\Users\user\Desktop\MicrosoftC#\Assignment2\Assignment2\obj\Debug\Assignment2.Properties.Resources.resources
+C:\Users\user\Desktop\MicrosoftC#\Assignment2\Assignment2\obj\Debug\Assignment2.csproj.GenerateResource.cache
+C:\Users\user\Desktop\MicrosoftC#\Assignment2\Assignment2\obj\Debug\Assignment2.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\MicrosoftC#\Assignment2\Assignment2\obj\Debug\Assignment2.exe
+C:\Users\user\Desktop\MicrosoftC#\Assignment2\Assignment2\obj\Debug\Assignment2.pdb
+C:\Users\user\Desktop\MicrosoftC#\Assignment2\Assignment2\obj\Debug\Assignment2.SearchAppointment.resources
+C:\Users\user\Desktop\MicrosoftC#\Assignment2\Assignment2\obj\Debug\Assignment2.ShowAll.resources
+C:\Users\user\Desktop\MicrosoftC#\Assignment2\Assignment2\obj\Debug\Assignment2.ShowPatientsAppointment.resources
